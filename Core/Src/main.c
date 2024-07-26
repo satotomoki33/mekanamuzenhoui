@@ -76,7 +76,7 @@ int main(void) {
 	/* USER CODE BEGIN 1 */
 	double R = 30;/*動かしたい角度*/
 	double radR = R * (M_PI / 180); /*ラジアン表記*/
-	double Vx = sin(radR);
+	double Vx = sin(radR);/*sincosの中はラジアン*/
 	double Vy = cos(radR);
 	double V1 = (Vx + Vy) * 400;
 	double V2 = (-Vx + Vy) * 400;
