@@ -85,7 +85,7 @@ int main(void) {
 	double ZV1 = fabs(V1);
 	double ZV2 = fabs(V2);
 	double ZV3 = fabs(V3);
-	double ZV4 = fabs(V4);
+	double ZV4 = fabs(V4); /*fabsは絶対値にするやつ*/
 
 
 
